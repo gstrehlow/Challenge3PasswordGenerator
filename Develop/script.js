@@ -3,6 +3,12 @@ function generatePassword() {
   // Capture users password length
   var pLength = Number(window.prompt("Enter a length of at least 8 characters and no more than 128 characters."));
   console.log(pLength);
+
+  // Check if password length is valid 
+  if(pLength < 8 || pLength > 128) {
+    window.alert("Invalid Response");
+    return "";
+  }
 }
 
 // Get references to the #generate element
