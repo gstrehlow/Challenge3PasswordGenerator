@@ -8,3 +8,5 @@
 - When I answer each prompt, my input should be validated and at least one character type should be selected.
 - When all prompts are answered, a password is generated that matches the selected criteria
 - When the password is generated, the password is either displayed in an alert or written to the page.
+
+[Link to Deployed Application](https://gstrehlow.github.io/Challenge3PasswordGenerator/)
