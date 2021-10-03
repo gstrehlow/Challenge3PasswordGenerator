@@ -23,7 +23,7 @@ function generatePassword() {
     characters += "0123456789"
   };
   if(window.confirm("Do you want to include special characters?")) {
-    characters += "~!@#$%^&*+"
+    characters += "!#$%&'()*+,-./:;<=>?@[^_`{|}~"
   };
 
   // Check if user selected at least one character type
