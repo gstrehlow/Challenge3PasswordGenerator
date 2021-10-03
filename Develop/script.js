@@ -9,6 +9,22 @@ function generatePassword() {
     window.alert("Invalid Response");
     return "";
   }
+
+  // Ask user which characters to include
+  // Add users characters to the total characters
+  let characters = "";
+  if(window.confirm("Do you want to include uppercase letters?")) {
+    characters += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  };
+  if(window.confirm("Do you want to include lowercase letters?")) {
+    characters += "abcdefghijklmnopqrstuvwxyz"
+  };
+  if(window.confirm("Do you want to include numerics?")) {
+    characters += "0123456789"
+  };
+  if(window.confirm("Do you want to include special characters?")) {
+    characters += "~!@#$%^&*+"
+  };
 }
 
 // Get references to the #generate element
