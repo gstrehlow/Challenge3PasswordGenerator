@@ -25,6 +25,12 @@ function generatePassword() {
   if(window.confirm("Do you want to include special characters?")) {
     characters += "~!@#$%^&*+"
   };
+
+  // Check if user selected at least one character type
+  if(!characters.length) {
+    window.alert("Please choose at least one character type.")
+    return ""
+  }
 }
 
 // Get references to the #generate element
