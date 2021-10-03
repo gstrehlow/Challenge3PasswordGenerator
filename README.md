@@ -10,3 +10,4 @@
 - When the password is generated, the password is either displayed in an alert or written to the page.
 
 [Link to Deployed Application](https://gstrehlow.github.io/Challenge3PasswordGenerator/)
+[Link to GitHub Repository](https://github.com/gstrehlow/Challenge3PasswordGenerator)
