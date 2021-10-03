@@ -31,6 +31,16 @@ function generatePassword() {
     window.alert("Please choose at least one character type.")
     return ""
   }
+
+  // Loop through the password length
+  // Generate random number between 0 and the total character length
+  // Add generated character to password
+  let password = ""
+  for (let i = 0; i < pLength; i++) {
+    const random = Math.floor(Math.random() * characters.length)
+    password += characters.charAt(random)
+  }
+  return password
 }
 
 // Get references to the #generate element
